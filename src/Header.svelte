@@ -12,7 +12,7 @@
   {#if $username}
     <div class="user-bio">
       
-      <span>Hello <strong>{$username}</strong></span>
+      <span>Welcome to X-Chain Club <strong>{$username}</strong></span>
       <img src={`https://avatars.dicebear.com/api/initials/${$username}.svg`} alt="avatar" /> 
     </div>
 
